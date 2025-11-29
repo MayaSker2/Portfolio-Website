@@ -16,7 +16,7 @@ return (
           scalable, and user-centric solutions.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mt-9">
         <div>
           <ContactInfoCard icon={<IoMdMail />}               text={ ABOUT_ME.email } />
           <ContactInfoCard icon={<IoPhonePortraitOutline />} text={ ABOUT_ME.phone } />
