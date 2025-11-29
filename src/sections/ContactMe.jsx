@@ -23,10 +23,10 @@ return (
           <ContactInfoCard icon={<IoLogoGithub />}           text={ ABOUT_ME.github} />
         </div>
         <div>
-          <h5 className='md:hidden text-dark font-pacifico text-lg font-medium mt-4 pd-5'>
+          <h5 className='md:hidden text-center text-dark font-pacifico text-lg font-medium mt-4 pd-5'>
             Conact Form
           </h5>
-          <form action="" className='flex flex-col'>
+          <form action="" className='flex flex-col mt-2 md:mt-0'>
             <input type="text" name='fullname' placeholder='Full Name' className='input-box' autoComplete='off'/>
             <input type="text" name='email' placeholder='Email' className='input-box'autoComplete='off' />
             <textarea type="text" name='message' placeholder='Message' rows={3} 
