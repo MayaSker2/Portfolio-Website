@@ -27,7 +27,7 @@ const TechnicalProficiency = () => {
         <div className="w-full max-w-[60vw] mx-auto text-center">
           <h4 className="section-title">Technical Proficiency</h4>
 
-          <p className="text-base mt-4 leading-6  text-lightpink">
+          <p className="text-sm md:text-base mt-3 lg:mt-4 leading-6  text-lightpink">
             A versatile developer with hands-on expertise in modern technologies,
             tools, and frameworks, dedicated to building efficient, scalable, and
             user-centric solutions.
@@ -48,7 +48,7 @@ const TechnicalProficiency = () => {
               transition={{duration: 0.4, delay: index * 0.1}}
               >
               <SkillCard
-                icon={<skill.icon className="w-6 h-6 text-primary" />}
+                icon={<skill.icon className="w-7 h-7 text-primary" />}
                 skillName={skill.skill}
                 description={skill.description}
                 progress={skill.progress}

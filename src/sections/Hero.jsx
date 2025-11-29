@@ -8,15 +8,15 @@ const Hero = () => {
   return (
     <section id="hero" className="container mx-auto px-8">
       <Snow />
-      <div className="flex flex-col lg:flex-row gap-14 items-center justify-between mt-[80px]">
+      <div className="flex flex-col lg:flex-row  gap-5 lg:gap-14 items-center justify-between mt-[10px]  lg:mt-[80px]">
         <div class="snow"></div>
 
-        <div className="order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0">
+        <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-16 ">
           <h3 className="text-xl lg:text-2xl font-medium text-lightpink">
             👋 Hi, I’m Maya Sker
           </h3>
 
-          <h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-pacifico leading-[50px] 
+          <h1 className="w-full lg:w-[480px] text-3xl lg:text-5xl font-pacifico leading-[50px] 
           lg:leading-[60px] mt-3  bg-primary bg-clip-text text-transparent"
           >
             Front-End &           
@@ -29,7 +29,7 @@ const Hero = () => {
             I love turning ideas into clean, functional, and scalable digital experiences.
           </p>
 
-          <div className="mt-6 flex justify-center lg:justify-start gap-4 md:gap-8">
+          <div className="mt-6 flex justify-center lg:justify-start gap-3 md:gap-8">
             <button 
             className="flex-1 md:flex-none text-primary border-primary action-btn-outline btn-scale-anim"
              onClick={() => window.open("https://github.com/MayaSker2", "_blank")}
@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[400px] md:[400px] order-1 lg:order-2">
+        <div className="order-1 lg:order-2">
           {/* Image or illustration here */}
 
           <div className="relative w-82 h-82 group">
@@ -68,7 +68,7 @@ const Hero = () => {
 
         </div>
       </div>
-      <div className="flex gap-12 mt-16 md:mt-24 flex-wrap">
+      <div className="flex gap-8 lg:gap-12 mt-16 md:mt-24 flex-wrap">
         {STATS.map((item) => (
           <StatInfoCard key={item.id} count={item.count} label={item.label} />
         ))}

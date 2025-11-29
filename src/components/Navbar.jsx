@@ -27,13 +27,13 @@ const Navbar = () => {
     return (
     <nav className='container mx-auto sticky top-5 z-10'>
         <div className='flex items-center justify-between bg-white/25 border
-         border-[#fee6cc] rounded-full   backdrop-blur-[10px] m-5 p-3 md:p-0'
+         border-[#fee6cc] rounded-full backdrop-blur-[10px] m-5 p-3 md:p-0'
         >
             {/* Logo */}
             <FaCode className="text-3xl text-dark ml-5" />
             
             {/* Hamburger Icon */}
-            <button className='block md:hidden text-[#333] mr-6 focus:outline-none'
+            <button className='block md:hidden text-[#181818] mr-6 focus:outline-none'
             onClick={toggleMenu}>
                 <svg className="w-6 h-6"
                 fill="none" 

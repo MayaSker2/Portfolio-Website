@@ -4,10 +4,10 @@ import Snow from '../utils/Snow';
 
 const AboutMe = () => {
   return (
-    <section id="about" className="container relative  mx-auto px-8 py-16">
+    <section id="about" className="container relative  mx-auto px-8 py-10">
       <Snow />
-      <div className="flex flex-col lg:flex-row gap-16 items-start justify-between">  
-        <div className="w-[300px] md:w-[370px] h-[350px] md:h-[428px] mx-auto">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start justify-between">  
+        <div className="w-[200px] md:w-[370px] h-[200px]  md:h-[328px] lg:h-[428px] mx-auto">
           <div className="relative group">
             <div className="
               absolute inset-0 rounded-full bg-purple-600 
@@ -24,16 +24,16 @@ const AboutMe = () => {
           </div>
         </div>
           
-                  
-        <div className="flex-1">
-          <h4 className="hidden lg:block w-[200px] section-title text-left">
+        
+        <div className="flex-1 text-center justify-center ">
+          <h4 className=" lg:text-left lg:w-[200px] section-title ">
             About Me
           </h4>
 
-          <p className="text-lg text-justify leading-6 whitespace-pre-line mt-4">
+          <p className="text-sm md:text-base lg:text-xl text-center lg:text-justify  text-lightpink leading-6 whitespace-pre-line mt-4">
             {ABOUT_ME.content}
           </p>
-          <div className="flex gap-4 mt-6">
+          <div className="flex gap-4 items-center justify-center lg:justify-start mt-6">
             {ABOUT_ME.socialLinks.map((item) => (
               <a key={item.label}  href={item.link} target="_blank" rel="noopener noreferrer" 
               className="curser-pointer group"

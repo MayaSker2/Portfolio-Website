@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 const Tabs = ({ tabList, activeTab, onChange }) => {
   const getActiveStyles = (value) =>
     activeTab === value
-      ? "text-white bg-primary"
-      : "text-secondary bg-transparent";
+      ? "text-primary scale:105 font-bold"
+      : "text-secondary bg-transparent ";
 
   return (
-    <div className="flex items-center justify-center my-10">
-      <div className="bg-lightpink rounded-full flex">
+    <div className="flex items-center justify-center my-5 lg:my-10">
+      <div className="w-full md:w-[400px] h-8 flex justify-evenly bg-lightpink rounded-full ">
         {tabList.map((tab) => (
           <motion.button
             key={tab.id}
@@ -20,7 +20,7 @@ const Tabs = ({ tabList, activeTab, onChange }) => {
             }}
             transition={{duration: 0.2}}
             className={`text-xs md:text-[15px] ${getActiveStyles(tab.value)} 
-            rounded-full px-4 md:px-10 py-[6px] md:py-3`}
+            rounded-full `}
             onClick={() => onChange(tab.value)}
             >
               {tab.label}
