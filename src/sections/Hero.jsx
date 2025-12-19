@@ -1,5 +1,5 @@
 import React from 'react'
-import MyImage from '../assets/images/my_image.png'
+import MyImage from '../assets/images/image.png'
 import { STATS } from '../utils/data'
 import StatInfoCard from '../components/StatInfoCard'
 import Snow from '../utils/Snow'
@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <section id="hero" className="container mx-auto px-8">
       <Snow />
-      <div className="flex flex-col lg:flex-row  gap-5 lg:gap-14 items-center justify-between mt-[10px]  lg:mt-[80px]">
+      <div className="flex flex-col lg:flex-row  gap-5 lg:gap-14 items-center justify-between mt-[10px]  lg:mt-[34px]">
         <div class="snow"></div>
 
-        <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-16 ">
+        <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-15 ">
           <h3 className="text-xl lg:text-2xl font-medium text-lightpink">
             👋 Hi, I’m Maya Sker
           </h3>
@@ -59,7 +59,7 @@ const Hero = () => {
                src={MyImage}
               alt="My Photo"
               className="
-                relative profile-pic w-full h-full 
+                relative profile-pic w-[520px] h-[520px] border-[#fcd7f1]
                 object-cover rounded-full border-x-4
                 border-darktransition-all duration-300 
                 group-hover:scale-105"
