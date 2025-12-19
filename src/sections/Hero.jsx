@@ -8,11 +8,11 @@ const Hero = () => {
   return (
     <section id="hero" className="container mx-auto px-8">
       <Snow />
-      <div className="flex flex-col lg:flex-row  gap-5 lg:gap-14 items-center justify-between mt-[10px]  lg:mt-[34px]">
+      <div className="flex flex-col lg:flex-row  gap-5 lg:gap-20 items-center justify-between ">
         <div class="snow"></div>
 
         <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-15 ">
-          <h3 className="text-xl lg:text-2xl font-medium text-lightpink">
+          <h3 className="text-xl lg:text-3xl font-pacifico font-medium text-lightpink">
             👋 Hi, I’m Maya Sker
           </h3>
 
@@ -47,7 +47,7 @@ const Hero = () => {
         <div className="order-1 lg:order-2">
           {/* Image or illustration here */}
 
-          <div className="relative w-82 h-82 group">
+          <div className="relative w-82 h-82 group ">
             <div className="
               absolute inset-0 rounded-full 
               bg-purple-600 opacity-0 blur-2xl 
@@ -59,7 +59,7 @@ const Hero = () => {
                src={MyImage}
               alt="My Photo"
               className="
-                relative profile-pic w-[520px] h-[520px] border-[#fcd7f1]
+                relative profile-pic w-full border-[#fcd7f1]
                 object-cover rounded-full border-x-4
                 border-darktransition-all duration-300 
                 group-hover:scale-105"

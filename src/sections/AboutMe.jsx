@@ -1,13 +1,13 @@
 import { ABOUT_ME } from "../utils/data";
-import MyImage from '../assets/images/my_image.png'
+import MyImage from '../assets/images/image2.png'
 import Snow from '../utils/Snow';
 
 const AboutMe = () => {
   return (
-    <section id="about" className="container relative  mx-auto px-8 py-10">
+    <section id="about" className="container relative  mx-auto px-8 mt-11 ">
       <Snow />
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start justify-between">  
-        <div className="w-[200px] md:w-[370px] h-[200px]  md:h-[328px] lg:h-[428px] mx-auto">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start justify-between">  
+        <div className="w-[300px] md:w-[400px] h-[300px]  md:h-[328px] lg:h-[428px] mx-auto">
           <div className="relative group">
             <div className="
               absolute inset-0 rounded-full bg-purple-600 
@@ -17,7 +17,9 @@ const AboutMe = () => {
 
             <img src={MyImage} alt="My Photo"
               className="
-                relative profile-pic w-full h-full object-cover 
+                relative profile-pic w-full h-full  border-[#fcd7f1]
+                object-cover border-x-4
+                border-darktransition-all
                 rounded-full transition-all duration-300 
                 group-hover:scale-105"
             />
