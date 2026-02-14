@@ -15,11 +15,11 @@ import {
     FaUsers,
     FaNodeJs,
 } from "react-icons/fa";
-
 import project_img_1 from "../assets/images/img1.png"
 import project_img_2 from "../assets/images/img2.png"
 import project_img_3 from "../assets/images/img3.png"
 import project_img_4 from "../assets/images/img4.png"
+import project_img_5 from "../assets/images/img5.png"
 import { BsBootstrap } from "react-icons/bs";
 import { FiClock, FiHelpCircle, FiLink, FiRefreshCw, FiSmartphone} from "react-icons/fi";
 import { SiNextdotjs } from "react-icons/si";
@@ -221,10 +221,10 @@ export const ABOUT_ME = {
 export const PROJECTS = [
     {
         id: 1,
-        title: "Complete responsive Fresh Fruits Website",
+        title: "Complete responsive Login & Register Website",
         image: project_img_1,
-        tags: ["React.js", "Tailwind CSS", "Html", "Css"],
-        link: "https://github.com/MayaSker2/complete-responsive-fresh-fruits-website-using-reactjs-tailwind-css"
+        tags: ["Html", "Css", "JavaScript"],
+        link: "https://github.com/MayaSker2/login-register-projects/tree/main/responsive-warm-login-register-website-using-html-css-javascript"
     },
     {
         id: 2,
@@ -241,12 +241,18 @@ export const PROJECTS = [
         tags: ["React.js", "Tailwind CSS", "Html", "Css"],
         link: "https://github.com/MayaSker2/complete-responsive-perfume-website-using-reactjs-tailwind-css"
     },
-
+     {
+        id: 4,
+        title: "Complete responsive Fresh Fruits Website",
+        image: project_img_4,
+        tags: ["React.js", "Tailwind CSS", "Html", "Css"],
+        link: "https://github.com/MayaSker2/complete-responsive-fresh-fruits-website-using-reactjs-tailwind-css"
+    },
 
     {
-        id: 4,
+        id: 5,
         title: "Complete Responsive Villa Website ",
-        image: project_img_4,
+        image: project_img_5,
         tags: ["React", "Html", "Css", "JavaScript"],
         link: "https://github.com/MayaSker2/task1-villa"
     },
