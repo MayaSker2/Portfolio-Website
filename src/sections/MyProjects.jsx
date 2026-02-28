@@ -37,20 +37,20 @@ const MyProjects = () => {
         <div className="relative">
             <div className="overflow-hidden" ref={emblaRef}>
                 <div className="flex pt-14 pb-8">
-                {PROJECTS.map((project) => (
-                    <div
-                    key={project.id}
-                    className="min-w-[100%] sm:min-w-[50%] lg:min-w-[33%]"
-                    >
-                    <ProjectCard
-                        key=   {project.id   }
-                        imgUrl={project.image}
-                        title= {project.title}
-                        tags=  {project.tags }
-                        link=  {project.link }
-                    />
-                    </div>
-                ))}
+                  {PROJECTS.map((project) => (
+                      <div
+                      key={project.id}
+                      className="min-w-[100%] sm:min-w-[50%] lg:min-w-[33%]"
+                      >
+                      <ProjectCard
+                          key=   {project.id   }
+                          imgUrl={project.image}
+                          title= {project.title}
+                          tags=  {project.tags }
+                          link=  {project.link }
+                      />
+                      </div>
+                  ))}
                 </div>
             </div>
             {/* Navigation Buttons */}

@@ -221,40 +221,38 @@ export const ABOUT_ME = {
 export const PROJECTS = [
     {
         id: 1,
-        title: "Complete responsive Login & Register Website",
+        title: "responsive Login & Register Website",
         image: project_img_1,
-        tags: ["Html", "Css", "JavaScript"],
-        link: "https://github.com/MayaSker2/login-register-projects/tree/main/responsive-warm-login-register-website-using-html-css-javascript"
+        tags: ["Php", "Html", "Css", "JavaScript"],
+        link: "https://login-register.rf.gd"
     },
-    {
+      {
         id: 2,
-        title: "Responsive christmas website design 🎄☃️",
-        image: project_img_2,
-        tags: ["Bootstrap", "Html", "Css", "JavaScript"],
-        link: "https://github.com/maya-sker1/Christmas-Website"
+        title: "Responsive Villa Multipage Website ",
+        image: project_img_5,
+        tags: ["React", "React-Bootstrap", "React-Router", "JavaScript"],
+        link: "https://responsive-villa-multipage-react.netlify.app"
     },
-
     {
-        id: 3,
-        title: "Complete responsive Perfume Website",
-        image: project_img_3,
-        tags: ["React.js", "Tailwind CSS", "Html", "Css"],
-        link: "https://github.com/MayaSker2/complete-responsive-perfume-website-using-reactjs-tailwind-css"
-    },
-     {
-        id: 4,
+        id: 5,
         title: "Complete responsive Fresh Fruits Website",
         image: project_img_4,
         tags: ["React.js", "Tailwind CSS", "Html", "Css"],
-        link: "https://github.com/MayaSker2/complete-responsive-fresh-fruits-website-using-reactjs-tailwind-css"
+        link: "https://simple-fresh-fruits-website.netlify.app"
     },
-
+    {
+        id: 4,
+        title: "Responsive christmas website design 🎄☃️",
+        image: project_img_2,
+        tags: ["Bootstrap", "Html", "Css", "JavaScript"],
+        link: "https://funny-christmas-website.netlify.app"
+    },
     {
         id: 5,
-        title: "Complete Responsive Villa Website ",
-        image: project_img_5,
-        tags: ["React", "Html", "Css", "JavaScript"],
-        link: "https://github.com/MayaSker2/task1-villa"
+        title: "Complete responsive Perfume Website",
+        image: project_img_3,
+        tags: ["React.js", "Tailwind CSS", "Html", "Css"],
+        link: "https://simple-perfume-website.netlify.app"
     },
 
 ];
